@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/my-python-app
+          images: ${{ secrets.DOCKER_USERNAME }}/piton_dlya_vlgu
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
